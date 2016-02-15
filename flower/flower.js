@@ -7,7 +7,7 @@ function Flower( width, height ) {
   
   this.renderer = new THREE.WebGLRenderer();
   
-  this.sceneSrc = ["chapters/flower/points/lotus.txt", "chapters/flower/points/tulip.txt", "chapters/flower/points/rose.txt", "chapters/flower/points/hibiscus.txt"];
+  this.sceneSrc = ["flower/points/lotus.txt", "flower/points/tulip.txt", "flower/points/rose.txt", "flower/points/hibiscus.txt"];
   this.sceneHue = [0.72, 0.87, 0.66, 0.98];
 //  this.sceneLuminanceDelta = [0.01, 0.005, 0.02];
   this.curSceneIdx = 0;
